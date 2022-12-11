@@ -1,0 +1,31 @@
+{
+  "name": "piash/symfony-request-validation",
+  "description": "To generate custom request validator file for a symfony project",
+  "type": "package",
+  "keywords": [
+    "Symfony",
+    "request",
+    "validation"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Nazem Mahmud Piash",
+    "email": "nazem.piash10@gmail.com",
+    "homepage": "https://github.com/NazemMahmud"
+  },
+  "require": {
+    "php": ">=7.1",
+    "symfony/console": "5.4.*",
+    "symfony/dependency-injection": "^4.4|^5.3|^6.0",
+    "symfony/validator": "5.4.*",
+    "symfony/http-foundation": "^5.3|^6.0"
+  },
+  "conflict": {
+    "symfony/console": "<4.4"
+  },
+  "autoload": {
+    "psr-4": {
+        "Piash\\": "src"
+    }
+  }
+}
