@@ -8,11 +8,11 @@
     "validation"
   ],
   "license": "MIT",
-  "author": {
+  "authors": [{
     "name": "Nazem Mahmud Piash",
     "email": "nazem.piash10@gmail.com",
     "homepage": "https://github.com/NazemMahmud"
-  },
+  }],
   "require": {
     "php": ">=7.1",
     "symfony/console": "5.4.*",
